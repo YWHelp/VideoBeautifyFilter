@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		973DDFDA4284854CB9431AFB /* libPods-VideoBeautifyFilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCC1520184CFA25B8FAF808 /* libPods-VideoBeautifyFilter.a */; };
+		DDBAE3101DB5EC5B0081F077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBAE30F1DB5EC5B0081F077 /* main.m */; };
+		DDBAE3131DB5EC5B0081F077 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBAE3121DB5EC5B0081F077 /* AppDelegate.m */; };
+		DDBAE3161DB5EC5B0081F077 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBAE3151DB5EC5B0081F077 /* ViewController.m */; };
+		DDBAE3191DB5EC5B0081F077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBAE3171DB5EC5B0081F077 /* Main.storyboard */; };
+		DDBAE31B1DB5EC5B0081F077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBAE31A1DB5EC5B0081F077 /* Assets.xcassets */; };
+		DDBAE31E1DB5EC5B0081F077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBAE31C1DB5EC5B0081F077 /* LaunchScreen.storyboard */; };
+		DDBAE3291DB5EC5B0081F077 /* VideoBeautifyFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBAE3281DB5EC5B0081F077 /* VideoBeautifyFilterTests.m */; };
+		DDBAE3341DB5EC5B0081F077 /* VideoBeautifyFilterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBAE3331DB5EC5B0081F077 /* VideoBeautifyFilterUITests.m */; };
+		DDBAE3441DB5EFF00081F077 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBAE3431DB5EFF00081F077 /* GPUImageBeautifyFilter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDBAE3251DB5EC5B0081F077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDBAE3031DB5EC5B0081F077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDBAE30A1DB5EC5B0081F077;
+			remoteInfo = VideoBeautifyFilter;
+		};
+		DDBAE3301DB5EC5B0081F077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDBAE3031DB5EC5B0081F077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDBAE30A1DB5EC5B0081F077;
+			remoteInfo = VideoBeautifyFilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3455B1583E5E5FE39307E178 /* Pods-VideoBeautifyFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBeautifyFilter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBeautifyFilter/Pods-VideoBeautifyFilter.debug.xcconfig"; sourceTree = "<group>"; };
+		6FAF48BBCD1E62020CCE5D4F /* Pods-VideoBeautifyFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBeautifyFilter.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBeautifyFilter/Pods-VideoBeautifyFilter.release.xcconfig"; sourceTree = "<group>"; };
+		DDBAE30B1DB5EC5B0081F077 /* VideoBeautifyFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoBeautifyFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBAE30F1DB5EC5B0081F077 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDBAE3111DB5EC5B0081F077 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDBAE3121DB5EC5B0081F077 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDBAE3141DB5EC5B0081F077 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDBAE3151DB5EC5B0081F077 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDBAE3181DB5EC5B0081F077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDBAE31A1DB5EC5B0081F077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDBAE31D1DB5EC5B0081F077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDBAE31F1DB5EC5B0081F077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBAE3241DB5EC5B0081F077 /* VideoBeautifyFilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBeautifyFilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBAE3281DB5EC5B0081F077 /* VideoBeautifyFilterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoBeautifyFilterTests.m; sourceTree = "<group>"; };
+		DDBAE32A1DB5EC5B0081F077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBAE32F1DB5EC5B0081F077 /* VideoBeautifyFilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBeautifyFilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBAE3331DB5EC5B0081F077 /* VideoBeautifyFilterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoBeautifyFilterUITests.m; sourceTree = "<group>"; };
+		DDBAE3351DB5EC5B0081F077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBAE3421DB5EFF00081F077 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		DDBAE3431DB5EFF00081F077 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		EFCC1520184CFA25B8FAF808 /* libPods-VideoBeautifyFilter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoBeautifyFilter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDBAE3081DB5EC5B0081F077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973DDFDA4284854CB9431AFB /* libPods-VideoBeautifyFilter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBAE3211DB5EC5B0081F077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBAE32C1DB5EC5B0081F077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AC22D29F98C7D9FA018060D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3455B1583E5E5FE39307E178 /* Pods-VideoBeautifyFilter.debug.xcconfig */,
+				6FAF48BBCD1E62020CCE5D4F /* Pods-VideoBeautifyFilter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDBAE3021DB5EC5B0081F077 = {
+			isa = PBXGroup;
+			children = (
+				DDBAE30D1DB5EC5B0081F077 /* VideoBeautifyFilter */,
+				DDBAE3271DB5EC5B0081F077 /* VideoBeautifyFilterTests */,
+				DDBAE3321DB5EC5B0081F077 /* VideoBeautifyFilterUITests */,
+				DDBAE30C1DB5EC5B0081F077 /* Products */,
+				7AC22D29F98C7D9FA018060D /* Pods */,
+				FC34907C5AACDB2434291C70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDBAE30C1DB5EC5B0081F077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDBAE30B1DB5EC5B0081F077 /* VideoBeautifyFilter.app */,
+				DDBAE3241DB5EC5B0081F077 /* VideoBeautifyFilterTests.xctest */,
+				DDBAE32F1DB5EC5B0081F077 /* VideoBeautifyFilterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDBAE30D1DB5EC5B0081F077 /* VideoBeautifyFilter */ = {
+			isa = PBXGroup;
+			children = (
+				DDBAE3411DB5EFC20081F077 /* GPUImageBeautifyFilter */,
+				DDBAE3111DB5EC5B0081F077 /* AppDelegate.h */,
+				DDBAE3121DB5EC5B0081F077 /* AppDelegate.m */,
+				DDBAE3141DB5EC5B0081F077 /* ViewController.h */,
+				DDBAE3151DB5EC5B0081F077 /* ViewController.m */,
+				DDBAE3171DB5EC5B0081F077 /* Main.storyboard */,
+				DDBAE31A1DB5EC5B0081F077 /* Assets.xcassets */,
+				DDBAE31C1DB5EC5B0081F077 /* LaunchScreen.storyboard */,
+				DDBAE31F1DB5EC5B0081F077 /* Info.plist */,
+				DDBAE30E1DB5EC5B0081F077 /* Supporting Files */,
+			);
+			path = VideoBeautifyFilter;
+			sourceTree = "<group>";
+		};
+		DDBAE30E1DB5EC5B0081F077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDBAE30F1DB5EC5B0081F077 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDBAE3271DB5EC5B0081F077 /* VideoBeautifyFilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDBAE3281DB5EC5B0081F077 /* VideoBeautifyFilterTests.m */,
+				DDBAE32A1DB5EC5B0081F077 /* Info.plist */,
+			);
+			path = VideoBeautifyFilterTests;
+			sourceTree = "<group>";
+		};
+		DDBAE3321DB5EC5B0081F077 /* VideoBeautifyFilterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDBAE3331DB5EC5B0081F077 /* VideoBeautifyFilterUITests.m */,
+				DDBAE3351DB5EC5B0081F077 /* Info.plist */,
+			);
+			path = VideoBeautifyFilterUITests;
+			sourceTree = "<group>";
+		};
+		DDBAE3411DB5EFC20081F077 /* GPUImageBeautifyFilter */ = {
+			isa = PBXGroup;
+			children = (
+				DDBAE3421DB5EFF00081F077 /* GPUImageBeautifyFilter.h */,
+				DDBAE3431DB5EFF00081F077 /* GPUImageBeautifyFilter.m */,
+			);
+			path = GPUImageBeautifyFilter;
+			sourceTree = "<group>";
+		};
+		FC34907C5AACDB2434291C70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFCC1520184CFA25B8FAF808 /* libPods-VideoBeautifyFilter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDBAE30A1DB5EC5B0081F077 /* VideoBeautifyFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBAE3381DB5EC5B0081F077 /* Build configuration list for PBXNativeTarget "VideoBeautifyFilter" */;
+			buildPhases = (
+				E600A73B550DAFB1DF57A9F0 /* [CP] Check Pods Manifest.lock */,
+				DDBAE3071DB5EC5B0081F077 /* Sources */,
+				DDBAE3081DB5EC5B0081F077 /* Frameworks */,
+				DDBAE3091DB5EC5B0081F077 /* Resources */,
+				D24EA9ED917DB9CED190239D /* [CP] Embed Pods Frameworks */,
+				DBFC353DE749989916ED32FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoBeautifyFilter;
+			productName = VideoBeautifyFilter;
+			productReference = DDBAE30B1DB5EC5B0081F077 /* VideoBeautifyFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDBAE3231DB5EC5B0081F077 /* VideoBeautifyFilterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBAE33B1DB5EC5B0081F077 /* Build configuration list for PBXNativeTarget "VideoBeautifyFilterTests" */;
+			buildPhases = (
+				DDBAE3201DB5EC5B0081F077 /* Sources */,
+				DDBAE3211DB5EC5B0081F077 /* Frameworks */,
+				DDBAE3221DB5EC5B0081F077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDBAE3261DB5EC5B0081F077 /* PBXTargetDependency */,
+			);
+			name = VideoBeautifyFilterTests;
+			productName = VideoBeautifyFilterTests;
+			productReference = DDBAE3241DB5EC5B0081F077 /* VideoBeautifyFilterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDBAE32E1DB5EC5B0081F077 /* VideoBeautifyFilterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBAE33E1DB5EC5B0081F077 /* Build configuration list for PBXNativeTarget "VideoBeautifyFilterUITests" */;
+			buildPhases = (
+				DDBAE32B1DB5EC5B0081F077 /* Sources */,
+				DDBAE32C1DB5EC5B0081F077 /* Frameworks */,
+				DDBAE32D1DB5EC5B0081F077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDBAE3311DB5EC5B0081F077 /* PBXTargetDependency */,
+			);
+			name = VideoBeautifyFilterUITests;
+			productName = VideoBeautifyFilterUITests;
+			productReference = DDBAE32F1DB5EC5B0081F077 /* VideoBeautifyFilterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDBAE3031DB5EC5B0081F077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = beautysite;
+				TargetAttributes = {
+					DDBAE30A1DB5EC5B0081F077 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ST585KS23M;
+						ProvisioningStyle = Automatic;
+					};
+					DDBAE3231DB5EC5B0081F077 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDBAE30A1DB5EC5B0081F077;
+					};
+					DDBAE32E1DB5EC5B0081F077 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDBAE30A1DB5EC5B0081F077;
+					};
+				};
+			};
+			buildConfigurationList = DDBAE3061DB5EC5B0081F077 /* Build configuration list for PBXProject "VideoBeautifyFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDBAE3021DB5EC5B0081F077;
+			productRefGroup = DDBAE30C1DB5EC5B0081F077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDBAE30A1DB5EC5B0081F077 /* VideoBeautifyFilter */,
+				DDBAE3231DB5EC5B0081F077 /* VideoBeautifyFilterTests */,
+				DDBAE32E1DB5EC5B0081F077 /* VideoBeautifyFilterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDBAE3091DB5EC5B0081F077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBAE31E1DB5EC5B0081F077 /* LaunchScreen.storyboard in Resources */,
+				DDBAE31B1DB5EC5B0081F077 /* Assets.xcassets in Resources */,
+				DDBAE3191DB5EC5B0081F077 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBAE3221DB5EC5B0081F077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBAE32D1DB5EC5B0081F077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D24EA9ED917DB9CED190239D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBeautifyFilter/Pods-VideoBeautifyFilter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBFC353DE749989916ED32FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBeautifyFilter/Pods-VideoBeautifyFilter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E600A73B550DAFB1DF57A9F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDBAE3071DB5EC5B0081F077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBAE3161DB5EC5B0081F077 /* ViewController.m in Sources */,
+				DDBAE3441DB5EFF00081F077 /* GPUImageBeautifyFilter.m in Sources */,
+				DDBAE3131DB5EC5B0081F077 /* AppDelegate.m in Sources */,
+				DDBAE3101DB5EC5B0081F077 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBAE3201DB5EC5B0081F077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBAE3291DB5EC5B0081F077 /* VideoBeautifyFilterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBAE32B1DB5EC5B0081F077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBAE3341DB5EC5B0081F077 /* VideoBeautifyFilterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDBAE3261DB5EC5B0081F077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDBAE30A1DB5EC5B0081F077 /* VideoBeautifyFilter */;
+			targetProxy = DDBAE3251DB5EC5B0081F077 /* PBXContainerItemProxy */;
+		};
+		DDBAE3311DB5EC5B0081F077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDBAE30A1DB5EC5B0081F077 /* VideoBeautifyFilter */;
+			targetProxy = DDBAE3301DB5EC5B0081F077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDBAE3171DB5EC5B0081F077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDBAE3181DB5EC5B0081F077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDBAE31C1DB5EC5B0081F077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDBAE31D1DB5EC5B0081F077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDBAE3361DB5EC5B0081F077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDBAE3371DB5EC5B0081F077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDBAE3391DB5EC5B0081F077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3455B1583E5E5FE39307E178 /* Pods-VideoBeautifyFilter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ST585KS23M;
+				INFOPLIST_FILE = VideoBeautifyFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MW.VideoBeautifyFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDBAE33A1DB5EC5B0081F077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FAF48BBCD1E62020CCE5D4F /* Pods-VideoBeautifyFilter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ST585KS23M;
+				INFOPLIST_FILE = VideoBeautifyFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MW.VideoBeautifyFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDBAE33C1DB5EC5B0081F077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoBeautifyFilterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MW.VideoBeautifyFilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoBeautifyFilter.app/VideoBeautifyFilter";
+			};
+			name = Debug;
+		};
+		DDBAE33D1DB5EC5B0081F077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoBeautifyFilterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MW.VideoBeautifyFilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoBeautifyFilter.app/VideoBeautifyFilter";
+			};
+			name = Release;
+		};
+		DDBAE33F1DB5EC5B0081F077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoBeautifyFilterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MW.VideoBeautifyFilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoBeautifyFilter;
+			};
+			name = Debug;
+		};
+		DDBAE3401DB5EC5B0081F077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoBeautifyFilterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MW.VideoBeautifyFilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoBeautifyFilter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDBAE3061DB5EC5B0081F077 /* Build configuration list for PBXProject "VideoBeautifyFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBAE3361DB5EC5B0081F077 /* Debug */,
+				DDBAE3371DB5EC5B0081F077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBAE3381DB5EC5B0081F077 /* Build configuration list for PBXNativeTarget "VideoBeautifyFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBAE3391DB5EC5B0081F077 /* Debug */,
+				DDBAE33A1DB5EC5B0081F077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBAE33B1DB5EC5B0081F077 /* Build configuration list for PBXNativeTarget "VideoBeautifyFilterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBAE33C1DB5EC5B0081F077 /* Debug */,
+				DDBAE33D1DB5EC5B0081F077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBAE33E1DB5EC5B0081F077 /* Build configuration list for PBXNativeTarget "VideoBeautifyFilterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBAE33F1DB5EC5B0081F077 /* Debug */,
+				DDBAE3401DB5EC5B0081F077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDBAE3031DB5EC5B0081F077 /* Project object */;
+}
